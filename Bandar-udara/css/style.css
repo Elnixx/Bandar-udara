@@ -383,8 +383,8 @@ a:focus {
 }
 
 .contact_section .contact_form {
-  padding-left: 25px;
   padding-right: 25px;
+  padding-left: 25px  ;
 }
 
 .contact_section .contact_form .top_input {
@@ -610,6 +610,27 @@ a:focus {
 
 .footer_section a {
   color: #ffffff;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  background-color: #e93f1a; /* match your website's color scheme */
+  color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none; /* hide the button by default */
+}
+
+.scroll-to-top:hover {
+  background-color: #e93f1a; /* hover effect */
+}
+
+.scroll-to-top.show {
+  display: block; /* show the button when scrolled down */
 }
 
 /* end footer section*/
